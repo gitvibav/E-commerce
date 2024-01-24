@@ -59,11 +59,181 @@ body{
     text-decoration: underline;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.header-button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #1D232C;
+    color: white;
+    cursor: pointer;
+}
+
+.service{
+    padding: 20px;
+}
+
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 50px;
+}
+
+.service-container-2 div{
+    background-color: #F2F4F7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.new-arrival{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+
+.new-arrival button{
+    padding: 5% 10%;
+    margin-top: 10px;
+    color: #1D232C;
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-arrival-header{
+    padding: 20px;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid black 3px;
+}
+
+.news button{
+    margin-top: 10px;
+    color: #F2F4F7;
+    background-color: #1D232C;
+    border-radius: 10px;
+    padding: 10px;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    padding: 40px;
+    background-color: #1D232C;
+    color: #F2F4F7;
+}
+
+.product-section{
+    margin-top: 20px;
+}
+
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}  
+
+.product-search input:focus{
+   outline: none;
+}
+
+.products{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+
+.products-box img{
+    border-radius: 10px;
+}
+
+.contact-form{
+    background-color: lightsteelblue;
+    padding: 20px;
+    width: 300px;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 450px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.contact-form-inside{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+.contact-form-inside button{
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
 @media screen and (max-width:700px){
     .navbar-menu-toggle{
         display: block;
     }
     .navbar-links{
         display: none;
+    }
+    .header-image{
+        display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
     }
 }
