@@ -14,7 +14,7 @@ Nostra is a simple and stylish frontend built with HTML, CSS, and JavaScript. It
 ## Getting Started
 
 1. Clone the repository:
-   git clone https://github.com/your-username/nostra-frontend.git
+   git clone [https://github.com/your-username/nostra-frontend.git](https://github.com/gitvibav/E-commerce.git)
 
 2. Customize the content in HTML files:
    - `index.html` for Home
