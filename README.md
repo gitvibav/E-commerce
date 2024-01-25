@@ -18,7 +18,7 @@ Nostra is a simple and stylish frontend built with HTML, CSS, and JavaScript. It
 
 2. Customize the content in HTML files:
    - `index.html` for Home
-   - `collections.html` for Collections
+   - `collection.html` for Collections
    - `contact.html` for Contact
 
 3. Update styles in `style.css` to match your brand.
